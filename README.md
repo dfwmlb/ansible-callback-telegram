@@ -1,6 +1,6 @@
 # Ansible Callback plugin for Telegram
 Used for your ansible playbook notification delivery
-Its highly recommended to use socks5 proxy to bypass RKN's restrictions but its not required
+Its highly recommended to use socks5 proxy to bypass RKN's restrictions but its not required (installed tor with socks5 proxy are perfect)
 
 ## Requiremets
 This plugin requires python libs:
@@ -8,11 +8,12 @@ This plugin requires python libs:
   - prettytable
 
 ## Install
-1. Install python libraries
+1. Install python libraries and upgrade requests lib to latest
 
     ```sh
     $ pip install pyTelegramBotApi
     $ pip install prettytable
+    $ pip install requests --upgrade
     ```
 
 2. Download plugin and put it to ansible
