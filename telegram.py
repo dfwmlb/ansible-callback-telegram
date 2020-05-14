@@ -113,7 +113,8 @@ class CallbackModule(CallbackBase):
                                   'variable.')
 
     def send_msg(self, msg):
-        apihelper.proxy = {'https': self.socks5_uri}
+        if self.socks5_uri is not None:
+            apihelper.proxy = {'https': self.socks5_uri}
         bot = telebot.TeleBot(self.tg_token)
         bot.send_message(self.tg_chat_id, msg, parse_mode='HTML')
 
