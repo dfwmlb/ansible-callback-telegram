@@ -20,7 +20,7 @@ This plugin requires python libs:
 
     ```sh
     $ cd /path/to/your/ansible/plugins/callback
-    $ curl -O https://github.com/dfwmlb/ansible-callback-telegram/blob/master/telegram.py
+    $ curl -O https://raw.githubusercontent.com/dfwmlb/ansible-callback-telegram/master/telegram.py
     ```
 
 3. Add configuration to your ansible.cfg
