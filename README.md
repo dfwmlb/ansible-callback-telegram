@@ -1,6 +1,6 @@
 # Ansible Callback plugin for Telegram
 Used for your ansible playbook notification delivery
-Its highly recommended to use socks5 proxy to bypass RKN's restrictions but its not required (installed tor with socks5 proxy are perfect)
+Its highly recommended to use socks5 proxy to bypass [RKN](https://en.wikipedia.org/wiki/Roskomnadzor)'s restrictions but its not required (installed tor with socks5 proxy are perfect)
 
 ## Requiremets
 This plugin requires python libs:
